@@ -8,4 +8,7 @@ app.get(`/`, function(req, res)
     res.send(`hello joe`);
 })
 
-
+app.listen(PORT, function()
+{
+    console.log("listening on" + PORT);
+})
