@@ -31,7 +31,7 @@ module.exports = function(app)
 
         friendata.push(newfriend);
       
-        res.json(friendata);
+        res.json(answer);
       });
       
       
